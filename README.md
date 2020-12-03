@@ -10,3 +10,11 @@ Introduction: Pancreatic Adenocarcinoma (PAAD) is the third most common cause of
 
 I.  Data Preparation
 For preparing data, first imported data as matrix and dataframe from GCT file. Then, NaN values were omitted and finally 14098 genes were remained with 183 samples.Heatmap of gene expression data was created to see gene distribution. 
+
+![alttext](https://user-images.githubusercontent.com/75350171/100968435-5934ee00-3557-11eb-9dac-f74e95e7231b.PNG)
+
+The heatmap shows expression of genes in the sample. Yellow signifies high expression and blue signifies low expression. Thus we see mainly pink/red colour in heatmap which suggests that the genes shows high expression. Blue tiles shows the low expression of that gene in the sample. X axis has gene ids and Y axis has sample info. 
+
+II. PCA Algorithm 
+PCA stands for Principle Componenet Analysis. It a dimensionality reduction technique which is based on variance and eigen values. Here, we have reducted the dimentionality of the data and variance is calculated for PCA. As I have selected 2 components, I got variance and variance ratio for those 2 components. 
+Now, we have to seperate endocrine tumours from exocrine tumours on the basis of 'histological_type_other'. The PCA plot is created: 
