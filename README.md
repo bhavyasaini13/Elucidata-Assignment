@@ -18,3 +18,12 @@ The heatmap shows expression of genes in the sample. Yellow signifies high expre
 II. PCA Algorithm 
 PCA stands for Principle Componenet Analysis. It a dimensionality reduction technique which is based on variance and eigen values. Here, we have reducted the dimentionality of the data and variance is calculated for PCA. As I have selected 2 components, I got variance and variance ratio for those 2 components. 
 Now, we have to seperate endocrine tumours from exocrine tumours on the basis of 'histological_type_other'. The PCA plot is created: 
+
+![alt text](https://user-images.githubusercontent.com/75350171/100971603-47564980-355d-11eb-9009-c4eba8ff8175.PNG)
+
+In the plot, Purple, darkblue, orange, maroon are for neuroendocrine and rest colours are for adenocarcinoma. By the look of it, above stated colours are less in frequencey and pink are most, thus seperating the two types of tumours. The data is clearly seperated into lower and upper side with majority of samples in lower side. Next step was eliminating these outliers as majority samples are situated between -100 to 100 for Value1 (on X axis) and less than 50 for Value2 (on Y axis).
+Thus, our data now contained adenocarcinoma samples without the outliers.
+
+# Visualization by Phantasus tool.
+![alttext](https://user-images.githubusercontent.com/75350171/100973506-aec1c880-3560-11eb-9d54-00d6b5313132.png)
+![alttext](https://user-images.githubusercontent.com/75350171/100973515-b1242280-3560-11eb-9999-1b09e086d36c.png)
