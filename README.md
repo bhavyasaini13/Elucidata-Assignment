@@ -7,3 +7,6 @@ Introduction: Pancreatic Adenocarcinoma (PAAD) is the third most common cause of
 1. Main dataframe which has 18465 genes and 183 samples.
 2. Row metadata which has 18465 gene names only.
 3. Column metadata which has 183 sample names and 124 rows of metadata like patient id, vital status, histological type, ethinicity etc.
+
+I.  Data Preparation
+For preparing data, first imported data as matrix and dataframe from GCT file. Then, NaN values were omitted and finally 14098 genes were remained with 183 samples.Heatmap of gene expression data was created to see gene distribution. 
