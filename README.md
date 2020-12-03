@@ -27,3 +27,17 @@ Thus, our data now contained adenocarcinoma samples without the outliers.
 # Visualization by Phantasus tool.
 ![alttext](https://user-images.githubusercontent.com/75350171/100973506-aec1c880-3560-11eb-9d54-00d6b5313132.png)
 ![alttext](https://user-images.githubusercontent.com/75350171/100973515-b1242280-3560-11eb-9999-1b09e086d36c.png)
+
+It shows the heatmap of the samples with different metadata like histological type, ethinicity, vital status etc and below, the heatmap is between genes and samples.
+
+Ans 1: 
+a) Behaviour of sample can be seen on various aspects present in column metadata file. One of the aspect was histological type where the tumours were divided into adenocarcinoma and neuroendocrine. By plotting this, we saw adenocarcinoma sample are forming dense cluster while Neuroendocrine showing low denser.
+
+b) Some of the neuroendocrine tumours are clrearly separable from adenocarcinoma tumours but very few are overlapped with adenocarcinoma tumours. They were seperated successfully.
+
+c) Varaince ratio of the PCA two components is percentage of variance explained by each of the selected components.It came out to be 0.16429956 and 0.11939836. This signifies first component has more variance than second component. 
+
+# Interferons
+
+Interferons (IFNs) are a group of signaling proteins made and released by host cells in response to the presence of several pathogens, such as viruses, bacteria, parasites, and also tumor cells. Type I interferons (IFNs) are a large subgroup of interferon proteins that help regulate the activity of the immune system. The genes responsible for type 1 Interferons is called Type 1 IFN signature and consists a set of 25 genes in homo sapiens.
+
