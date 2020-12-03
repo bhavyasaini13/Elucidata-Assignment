@@ -41,3 +41,15 @@ c) Varaince ratio of the PCA two components is percentage of variance explained 
 
 Interferons (IFNs) are a group of signaling proteins made and released by host cells in response to the presence of several pathogens, such as viruses, bacteria, parasites, and also tumor cells. Type I interferons (IFNs) are a large subgroup of interferon proteins that help regulate the activity of the immune system. The genes responsible for type 1 Interferons is called Type 1 IFN signature and consists a set of 25 genes in homo sapiens.
 
+![alttext](https://user-images.githubusercontent.com/75350171/100987070-07e72780-3574-11eb-8996-45739dbf2127.PNG)
+
+This heatmap shows the plot between 19 genes and 167 samples out of 25 human interferons (because .loc function of python was giving error in selecting all 25). The samples contains all endocrine tumour samples. Most values are between 15 and 10 which shows gene distribution across all samples to be of high expression. Few genes have low expression. 
+
+GSVA was a new topic for me and I explored the information given regarding the package. So I tried using GSVA in python but there seems to be problem in .loc[ ] function, so I gave a supposed code of gsva in python as to how its used. The GSVA is done by doing tsne plot of expression file with genes in intereferon files. I couldn't use the Docker for GSVA because I didn't have ubuntu os.
+
+Ans 2:
+a) Yes, I can characterise the presence of IFN genes into adenocarcinoma tumours by assigned score to each gene per histological type.
+
+b) Distribution will depened upon the plot which comes by performing tsne.The position of dots will tell the distribution pattern. If the clusters are visible then they aren't well dispered. 
+
+c) Yes, we can identify the presence of IFN in PAAD subtypes. We saw this even in heatmap above that high expression means presence of IFNs in PAAD.
